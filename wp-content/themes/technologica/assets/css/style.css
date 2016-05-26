@@ -1,0 +1,188 @@
+
+@import "http://fonts.googleapis.com/css?family=Montserrat:400,700";
+
+body{
+	font-family: "Montserrat",sans-serif!important;
+	font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo */
+#faixa-topo{
+	height: 7px;
+	background: #5DBB45;
+}
+
+.logo{
+	display: block;
+	margin: 5% 0;
+	/*background: url('../img/logo.png'); no-repeat;
+	width: 300px;
+	height: 90px;*/
+	max-width: 100%;
+}
+
+.navbar{
+	background: #fff;
+}
+
+.navbar-default{
+	border: none;
+	background-color:#fff;
+}
+.navbar-nav > li > a {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: inherit;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover{
+
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+.slogan h1, .slogan h4 {
+	font-family: "Montserrat",sans-serif;
+	color: #292F54;
+}
+.slogan h1{
+	padding-top: 7px;
+}
+.slogan h4{
+	margin-top: 0px;
+}
+.trilha{
+	background: url('../img/trilha.png') no-repeat  1123px top;
+	margin-bottom: 0;
+}
+.menu-horizontal{
+	margin-bottom: 16px;
+}
+
+
+/* section */
+.conteudo{
+	margin-top:20px;
+}
+
+/* FONT-COLOR */
+.color{
+	color: #5DBB45;
+}
+/* LINKS */
+a{
+	color:#000;
+}
+a{
+	-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;
+}
+a:hover{
+	color:#000;
+}
+a:focus{
+	color:#000; text-decoration:none;
+}
+
+.localizacao{
+	padding: 20px 0;
+	width: 100%;
+	float:left;
+}
+
+.redes{
+	margin:15px 0;
+}
+
+.text-content, .title-page{
+	margin: 40px 0;
+}
+
+/* Organizção */
+.titulo-org{
+	margin:2% 0;
+}
+
+.logo-org{
+	padding-top:2%;  
+}
+.logos-org{
+	padding-left: 11px;
+}
+.logos-org li{
+	display: inline;
+	margin: 0 0.5%;
+}
+ #dasc{
+	padding-left:4%;
+}
+
+#msg{
+	padding: 10px;
+}
+
+/* Form. Contato */
+/*.wpcf7-form div{
+	color: #777;
+}*/
+
+/* Rodapé */
+footer{
+	/*background-color: #EEEEEE;*/
+	background: url('../img/bg_footer.jpg');
+	max-width: 1920px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+footer nav{
+	width:100%; float:left;
+}
+footer h4{
+	margin-top: 0;
+}
+
+footer nav ul, footer p{
+	width:100%; float:left; padding-left: 0;
+}
+footer nav ul li{
+	width:100%; float:left; margin:2px 0;list-style-type:none;
+}
+footer nav ul li a, footer p{
+	float:left; font-size:14px;
+}
+footer .sub-footer{
+	background-color: #fff;
+}
+footer .sub-footer .copyright { 
+	font-size:12px; color:#b5b5b5; float: left; padding: 22px 0;
+}
+footer .sub-footer .desenvolvido-por{
+	float: right;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.logo{
+		margin: 5% 0;
+		z-index: 10;
+	}
+	.slogan h1{
+		font-size: 20px;
+		padding-top: 0;
+
+	}
+	.col-xs-6{
+		margin-top: 5%;
+	}
+	#pet-coce{
+		height: 82px;
+	}
+	.logos-org li{
+		display: inline-block;
+		margin: 0% 0 3% 0.5%;
+	}
+}
