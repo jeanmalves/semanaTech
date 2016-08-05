@@ -22,7 +22,25 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 conteudo">
-            			<a class="twitter-timeline"  href="https://twitter.com/s_technologica" data-widget-id="639038364512030720" height="555">Tweets by @s_technologica</a>
+            			<ul class="lista-destaques">
+							<?php
+								/**
+								* get_posts()
+								* Query que realiza a busca dos posts limitando a lista em 5 posts.
+								* @param arrray
+								* @return objeto post
+								*/
+							?>
+							<?php $args = array( 'number_posts'=>5, 'order'=>'DESC' ); ?>
+							<?php while (have_posts($args)) { ?>
+							<?php 	the_post(); ?>
+									<li>
+										<a href="<?php echo get_permalink(); ?>">
+											<?php echo get_the_title(); ?>
+										</a>
+									</li>
+							<?php } ?>
+						</ul>
 					</div>
 					<div class="col-md-6 conteudo">
 						<a href="<?php echo PW_URL; ?>/?page_id=15">

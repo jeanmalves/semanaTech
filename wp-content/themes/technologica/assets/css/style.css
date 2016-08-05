@@ -69,6 +69,19 @@ body{
 	margin-top:20px;
 }
 
+
+.img-post {
+    margin-bottom: 80px;
+    max-height: 50vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.lista-destaques{
+	list-style: none; 
+	padding-left: 0;
+}
+
 /* FONT-COLOR */
 .color{
 	color: #5DBB45;
