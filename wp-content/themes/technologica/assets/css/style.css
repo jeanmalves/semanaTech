@@ -71,7 +71,7 @@ body{
 
 
 .img-post {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     max-height: 50vh;
     overflow: hidden;
     width: 100%;
@@ -80,6 +80,10 @@ body{
 .lista-destaques{
 	list-style: none; 
 	padding-left: 0;
+}
+.noticias {
+	padding-left: 0;
+	padding-bottom: 5px;	
 }
 
 /* FONT-COLOR */
@@ -111,7 +115,7 @@ a:focus{
 }
 
 .text-content, .title-page{
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
 /* Organizção */

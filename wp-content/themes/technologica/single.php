@@ -7,13 +7,13 @@
 		            	<h2 class="title-page"><?php the_title(); ?></h2>
 		                <h5></h5>
 		            </div>
-		            <div class="col-md-12">
-		            	 <?php if ( has_post_thumbnail() ) : ?>
+	            	 <?php if ( has_post_thumbnail() ) : ?>
+			            <div class="col-md-12">
 			                <div class="img-post">
 			                  <?php the_post_thumbnail( 'large', array('class'=>'img-responsive') ); ?>
 			                </div>
-			  			<?php	endif; ?>
-		            </div>	
+			            </div>	
+		  			<?php endif; ?>
 					<div class="col-md-12">
 						<?php the_content(); ?>
 					</div>

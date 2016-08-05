@@ -22,6 +22,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 conteudo">
+						<div class="col-md-12 noticias" style="padding-left: 0;">
+							<h1>Últimas Notícias</h1>
+						</div>
             			<ul class="lista-destaques">
 							<?php
 								/**
