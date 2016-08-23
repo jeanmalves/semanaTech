@@ -10,7 +10,7 @@
 						</a>	
 					</div>
 					<div class="col-md-6 conteudo">
-						<a href="<?php echo PW_URL; ?>/?page_id=10">
+						<a href="http://seminfo.dainf.ct.utfpr.edu.br/Programacao" target="_blank" title="Conheça a programação completa da semana technológica">
 							<img src="<?php echo PW_THEME_URL; ?>assets/img/agenda.jpg" style="display:block; max-width:100%;height: auto; "
 							 alt="Conheça a programação completa da semana technológica">
 						</a>	
@@ -71,47 +71,11 @@
 								 alt="Daeln - Departamento de Eletrônica UTFPR">
 							</a>	
 						</li>
-						<li>
-							<a href="https://www.facebook.com/codersutfpr" target="_blank">
-								<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_coders.png" alt="Coders - Grupo de Programação UTFPR">
-							</a>
-						</li>
-						<li>
-							<a href="http://www.dainf.ct.utfpr.edu.br/petcoce/" target="_blank">
-								<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_petcoce.png" alt="Pet-CoCe UTFPR">
-							</a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/dascutfpr" target="_blank">
-								<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_dasc.png"
-								 alt="Dasc - Diretório de Sistemas de Informação e Engenharia da Computação UTFPR">
-							</a>
-						</li>
-						<li>
-							<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_pet_ee.png" alt="Pet Engenharia Eletrônica">
-						</li>
-						<li>
-							<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_compute.png" alt="Compute Você Mesmo">
-						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
-		<section class="conteudo">
-			<div class="container">
-				<h4 class="titulo-org">Apoio:</h4>
-				<div class="row">
-					<ul class="logos-org">
-						<li>
-							<a href="http://www.wises.com.br/" target="_blank">
-								<img src="<?php echo PW_THEME_URL; ?>assets/img/logo_WiseSystems.png"
-								 alt="Wise Systems - Fábrica de Software">
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>		
+			
 		<?php get_footer(); ?>
     	<!-- Jquery Files -->
     	<script>

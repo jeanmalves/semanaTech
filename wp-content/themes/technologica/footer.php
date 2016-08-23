@@ -56,9 +56,7 @@
 							</a>
 						</div>
 						<div class="redes">
-							<a href="https://twitter.com/s_technologica" target="_blank">
-								<img src="<?php echo PW_THEME_URL; ?>assets/img/twitter-folow.jpg">
-							</a>
+							<img src="<?php echo PW_THEME_URL; ?>assets/img/twitter-folow.jpg">
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-8">
